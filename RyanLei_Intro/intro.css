@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px){
+    .intro {
+        margin: auto;
+        width: auto;
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .intro {
+        margin: auto;
+        width: auto;
+        background-color: lightblue;
+    }
+}
+
+/*
+What makes the webpage change colors depending on the side of the
+screen is all because of the min-width or max-width. Min-width means
+that the screen has to have a minimum width of 600px before it changes.
+Max-width means that the maximum width of the screen is 600px before
+it changes color. 
+*/
